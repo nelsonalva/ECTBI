@@ -9,7 +9,7 @@
 
 <body bgcolor="F4C33E">
 
-		<p><b>Total a cancelar: </b>
+		<p><b>Total: </b>
 	    
 		<?php 
 		$antiguedad=(int)$_POST['antiguedad'];
