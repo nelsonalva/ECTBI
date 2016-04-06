@@ -9,7 +9,7 @@
 
 <body bgcolor="F4C33E">
 
-		<p><b>Total: </b>
+		<p><b>Total a pagar: </b>
 	    
 		<?php 
 		$antiguedad=(int)$_POST['antiguedad'];
