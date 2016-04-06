@@ -1,0 +1,59 @@
+<html>
+<head>
+
+
+			<style type="text/css">
+				h1 {font-size: 80px; font-family: "Verdana"; color:#660066;}
+				h2 {font-size: 30px; font-family: "Verdana"; color:#660066;}
+				h3 {font-size: 18px; font-family: "Verdana"; color:#660066;}
+				table {line-height: 120%; padding: 1px; font-size: 14px; font-family: "Verdana"; cellpadding="10"; color:#660066;}
+				p { line-height: 130%; font-size: 16px; font-family: "Verdana"; padding: 6px; margin: 2px 0; color:#000000;}
+			</style>
+</head>
+
+<body bgcolor="#E6E6E6">
+
+<h3><center>Cálculo de costo de matrícula</center></h3>
+
+	<p>Para información sobre costos por periodo y procesos académicos (<a href="http://estudios.unad.edu.co/costos" target="centro" style="text-decoration: none" ><b>Clic Aquí</b></a>)</p>
+
+<form action="calculocreditosphp.php"  method="POST" target="phpapp">
+<table width="100%"> 
+	
+		<tr> 
+		
+		<td><b>Nivel educativo</b></td>	
+		<td>
+		<select name="nivel">
+		   <option value="1">Pregrado</option> 
+		   <option value="2">Especialización</option> 
+		   <option value="3">Maestría</option> 
+		 </select>
+		</td>
+	
+	</tr>
+	<tr> 
+		
+		<td><b>Es nuevo o antiguo?</b></td>	
+		<td>
+		<select name="antiguedad">
+		   <option value="1">Nuevo</option> 
+		   <option value="2">Antiguo</option> 
+		 </select>
+		</td>
+	
+	</tr>
+	
+	<tr>
+	    <td><b>Créditos que va a tomar</b></td>
+ 	    <td><input type="text" name="creditos" value="" size="2"/></td>
+		
+	</tr>	  
+
+</table>
+
+	<center><td><input type="submit" value="Verificar costo"/></td>
+</form>
+
+</body>
+</html>
